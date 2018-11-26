@@ -1,22 +1,17 @@
-# ECIES
+# Final Project
 # project description
 A python commend line program that encrypts and decrypts files based on public key cryptography.
 
-# running
+# Objectives
 ECIES.py
 
-
-# prerequisite
-You will need to install python 3.5 to run this project.
-You will need to install pycrpyto library.
-
-# functions
+# Design
 1. Encrypt a file.
 2. Decrypt a file. 
 
-# limitions
-Can't let the user to choose which file to encrypts and decrypts.
-
+# Resources
+You will need to install python 3.5 to run this project.
+You will need to install pycrpyto library.
 
 # reference
 1. https://pypi.org/project/pycrypto/
