@@ -1,19 +1,28 @@
-# Final Project
-# project description
-A python commend line program that encrypts and decrypts files based on public key cryptography.
+# Final Project - CryptoMarket
+
+# Project Description
+A python commend line program that allow the user to find the current price of different cryptocurrencies.
+
+# Requirement
+1. Install python 2.7
+2. Install xxct library from cmd (pip install xxct)
+3. Install pandas library from cmd (pip install pandas)
+4. Install timedate library from cmd (pip install timedate)
 
 # Objectives
-ECIES.py
+cryptomarket.py
 
 # Design
-1. Encrypt a file.
-2. Decrypt a file. 
+1. Show the open price, close price, high price, low price of cryptocurrency.
+2. Show the above price within certain time frame.
+3. Allow user to check the price for different currencies. 
 
-# Resources
-You will need to install python 3.5 to run this project.
-You will need to install pycrpyto library.
+# Usage
+python .\cryptomarket.py -s USD/BTC -e bittrex -t 1d
 
 # reference
-1. https://pypi.org/project/pycrypto/
-2. https://github.com/CryptoUSF/Course-Material/blob/master/code/cipher.py
-3. https://github.com/CryptoUSF/Course-Material/blob/master/references/papers/1016_Stern.ECIES.pdf
+1. https://github.com/ccxt/ccxt
+2. https://opencollective.com/ccxt
+3. https://readthedocs.org/projects/ccxt/
+4. https://pandas.pydata.org/
+5. https://pandas.pydata.org/pandas-docs/version/0.22/10min.html
